@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto — DulceMiga Pastelería Artesanal</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Young+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
+</head>
+<body>
+<header class="main-header">
+    <div class="morphing-bg"></div>
+    <div class="morphing-bg"></div>
+      <div class="logo-d" aria-label="DulceMiga Logo">
+        <a href="index.html"></a>
+      </div>
+    <nav class="main-nav">
+        <input type="checkbox" id="menu-toggle" aria-label="Menú de Navegación">
+        <label for="menu-toggle" class="menu-icon"><i class="fa-solid fa-bars"></i></label>
+        <ul class="nav-list">
+            <li><a href="../index.html" aria-label="Inicio"><i class="fa-solid fa-house"></i></a></li>
+            <li><a href="servicio.html" aria-label="Servicios"><i class="fa-solid fa-bag-shopping"></i></a></li>
+            <li><a href="galeria.html" aria-label="Galería"><i class="fa-solid fa-image"></i></a></li>
+            <li><a href="equipo.html" aria-label="Equipo"><i class="fa-solid fa-users"></i></a></li>
+            <li><a href="contacto.html" aria-label="Contacto"><i class="fa-solid fa-paper-plane"></i></a></li>
+        </ul>
+    </nav>
+</header>
+    <main>
+        <section class="contact-section">
+            <h1 class="page-title">Contáctanos</h1>
+            <p class="contact-description">
+                ¿Tienes alguna consulta, sugerencia o quieres hacer un pedido especial?
+                Completa el siguiente formulario y nos pondremos en contacto contigo
+                lo antes posible.
+            </p>
+            <div class="contact-container">
+                <form class="contact-form" action="#" method="get">
+                    <div class="form-group">
+                        <label for="name">Nombre</label>
+                        <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="tu.correo@ejemplo.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Teléfono (opcional)</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Ej: +54 9 11 1234 5678">
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Asunto</label>
+                        <input type="text" id="subject" name="subject" placeholder="Asunto de tu mensaje" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensaje</label>
+                        <textarea id="message" name="message" rows="6" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn-detail">Enviar Mensaje</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-content">
+            <address>
+                <p>Dirección: Calle Francia 34, Ciudad San Nicolas de Los Arroyos</p>
+                <p>Teléfono: 549-3364123456</p>
+                <p>Email: <a href="mailto:info@dulcemiga.com">info@dulcemiga.com</a></p>
+            </address>
+            <div class="social-links">
+                <a href="#" aria-label="Facebook de DulceMiga"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" aria-label="Instagram de DulceMiga"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" aria-label="Twitter de DulceMiga"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
