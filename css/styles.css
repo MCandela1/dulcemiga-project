@@ -249,7 +249,7 @@ h1, h2, h3 {
 
 .product-card img, .offer-card img {
     width: 100%;
-    height: 200px;
+    aspect-ratio: 1 / 1;
     object-fit: cover;
     border-radius: 15px;
     margin-bottom: 1rem;
